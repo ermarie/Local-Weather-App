@@ -1,0 +1,67 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  vertical-align: middle;
+}
+
+h1{
+  color: rgb(204, 51, 255);
+  font-weight: bold;
+}
+
+#container{
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .5);
+  
+  left: 50%; top: 50%;
+  width: 225px; height: 225px;
+  margin-left: -112.5px; margin-top: -112.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0   6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#temp-div{
+  height: 30px;
+  position: static;
+  padding: 1px;
+  padding-bottom: 20px;
+}
+
+#f-c, #f-c:visited, #f-c:active, #f-c:focus{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    outline: 0;
+    display: inline-block;
+    font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#f-c:hover {
+  background-color: white !important;
+  color: #4CAF50 !important;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#f-c:active{
+  cursor: default;
+}
+
+#bg{
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
